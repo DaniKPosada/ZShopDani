@@ -1004,3 +1004,8 @@ footer .bottom-footer a {
 	width: 100%;
 
 }
+label.row1{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+}
