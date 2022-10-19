@@ -17,8 +17,9 @@ html {
 }
 
 img {
+	object-fit: cover;
 	max-width: 100%;
-	height: auto;
+	height: 100%;
 	width: auto\9;
 	/* ie8 */
 }
@@ -609,6 +610,7 @@ footer .este{
 	margin:0;
 	padding: 0;
 }
+
 .blog1 h2 {
 	/*color: #fff;*/
 	font-size: 36px;
@@ -997,3 +999,8 @@ footer .bottom-footer a {
 	}
 }
 
+.blog1 .img{
+	height: 100%;
+	width: 100%;
+
+}
