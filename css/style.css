@@ -329,6 +329,8 @@ footer .este{
 
 #container .wrap-container {
 	background: #fff;
+	display:flex;
+	flex-direction: column;
 }
 
 .box-text {
@@ -596,7 +598,24 @@ footer .este{
 	max-width: 600px;
 	margin: 50px auto 20px;
 }
-
+/*dANIELA*/
+.blog1{
+	display: flex;
+	flex-direction: row;
+	margin:0;
+	padding: 0;
+}
+.blog1 .col-1-2{
+	width: 50%;
+	margin:0;
+	padding: 0;
+}
+.blog1 h2 {
+	/*color: #fff;*/
+	font-size: 36px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
 
 
 /* -------------------------------------------------------Article------------------------------------------- */
